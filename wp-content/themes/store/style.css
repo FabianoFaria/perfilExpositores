@@ -777,3 +777,106 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+
+/* css para o carrosel */
+
+.carousel {
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.sliders-faixa {
+	height: 350px;
+	margin-bottom: 10px;
+}
+
+.container.marketing-home{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+/* Home */ 
+
+.trabalhos-home
+ {
+	height: 350px;
+	padding: 10px;
+}
+
+.ultimos_tabalhos{
+	width: 75%;
+}
+
+.ultimos_tabalhos h2{
+	-webkit-box-shadow: 0px 10px 0px 0px rgba(46,133,174,1);
+	-moz-box-shadow: 0px 10px 0px 0px rgba(46,133,174,1);
+	box-shadow: 0px 10px 0px 0px rgba(46,133,174,1);
+}
+
+.destaques-home {
+	height: 350px;
+	position: absolute;
+}
+
+.quem_somos {
+	height: 125px;
+	padding: 10px;
+	position: relative;
+	width: 75%;
+}
+
+.quem_somos h2{
+	-webkit-box-shadow: 0px 10px 0px 0px rgba(46,133,174,1);
+	-moz-box-shadow: 0px 10px 0px 0px rgba(46,133,174,1);
+	box-shadow: 0px 10px 0px 0px rgba(46,133,174,1);
+}
+
+.quem_somos p{
+	margin-top: 20px;
+}
+
+.home_servicos {
+	height: 225px;
+	padding: 10px;
+	position: relative;
+	width: 75%;
+}
+
+.home_servicos h2{
+	-webkit-box-shadow: 0px 10px 0px 0px rgba(46,133,174,1);
+	-moz-box-shadow: 0px 10px 0px 0px rgba(46,133,174,1);
+	box-shadow: 0px 10px 0px 0px rgba(46,133,174,1);
+}
+
+.home_servicos p{
+	margin-top: 20px;
+}
+
+.image_ultimo_trabalho {
+	margin-top: 30px;
+}
+
+.image_ultimo_trabalho img{
+	height: 150px;
+	width: 60%;
+	background: #cccccc;
+	float: left;
+}
+
+.image_ultimo_trabalho p {
+	float: right;
+	padding: 10px;
+	width: 40%;
+}
+
+.image_ultimo_trabalho a {
+	float: right;
+	padding: 10px;
+	width: 40%;
+}
+
+.carousel-inner img{
+ 	max-height: 300px;
+ 	margin: 0 auto;
+}
