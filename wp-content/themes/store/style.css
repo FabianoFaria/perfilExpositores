@@ -880,3 +880,17 @@ object {
  	max-height: 300px;
  	margin: 0 auto;
 }
+
+/* Quem somos */
+
+.institucional_bloco {
+	height: 360px;
+}
+
+.institucional_bloco h4 {
+	position: relative;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}

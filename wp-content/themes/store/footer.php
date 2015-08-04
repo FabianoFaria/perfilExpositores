@@ -15,9 +15,6 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
 			<p>Perfil Móveis para lojas @2015 | Todos os direitos reservados</p>
-			<?php//  printf( __( 'Theme Designed by %1$s.', 'store' ), '<a href="'.esc_url("http://rohitink.com/").'" rel="designer">Rohit</a>' ); ?>
-			<span class="sep"></span>
-			<?php //echo ( get_theme_mod('store_footer_text') == '' ) ? ('&copy; '.date('Y').' '.get_bloginfo('name').__('. All Rights Reserved. ','store')) : esc_html( get_theme_mod('store_footer_text') ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 	
