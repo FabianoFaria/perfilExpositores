@@ -47,7 +47,7 @@
 
 	    	<div class="col-md-6 trabalhos-home">
 	    		<div class="ultimos_tabalhos">
-	    			<h2>Ultimos trabalhos</h2>
+	    			<h2>Últimos trabalhos</h2>
 
 	    			<div class="image_ultimo_trabalho">
 	    				<img class="third-slide" src="<?php echo get_template_directory_uri(); ?>/fix_images/estante_c.jpg" alt="Third slide">
