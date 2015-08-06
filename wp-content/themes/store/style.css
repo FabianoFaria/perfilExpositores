@@ -909,6 +909,14 @@ object {
 	margin-bottom: 5px;
 }
 
+/* Servios */
+
+.servicos_box {
+	min-height: 460px;
+	margin-bottom: 30px;
+}
+
+
 /**
  * Portfolio
  */
