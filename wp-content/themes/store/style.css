@@ -916,6 +916,57 @@ object {
 	margin-bottom: 30px;
 }
 
+/* Plans */
+#plans {}
+#plans .plan-list {list-style:none;list-style-position:outside;position:relative;overflow:hidden;}
+#plans .plan-list {width:920px;margin:0 auto;padding:0;}
+#plans .plan-list:after {clear:both;display:block;content:'';}
+#plans .plan {width:210px;float:left;margin:0 10px 20px;padding:0 0 10px 0;background:url(/public-assets/img/plan-shadow.png) bottom left no-repeat;}
+#plans .plan-container {background:#fff; border: 1px #CCC solid; -webkit-box-shadow: 0px 2px 2px 0px #ccc;box-shadow: 0px 2px 2px 0px #ccc;}
+#plans .plan-header {width:100%;height:135px;background:url(../img/plans.gif);padding:25px 20px 0 20px;border-bottom:1px solid #aaa;}
+#plans #plan-personal .plan-header {background-position:0 0;}
+#plans #plan-basic .plan-header {background-position:-210px 0;}
+#plans #plan-plus .plan-header {background-position:-420px 0;}
+#plans #plan-premium .plan-header {background-position:-630px 0;}
+#plans .plan h2 {font: 40px/1 'ProximaNova-Extrabld', Arial, Helvetica, sans-serif;margin:0 0 4px;text-align:center;}
+#plans .plan p {font-size:14px;line-height:18px;margin:0 0 12px;text-align:center;}
+#plans .plan h3 {font: 32px/1 'ProximaNova-Bold', Arial, Helvetica, sans-serif;margin:0;text-align:center;}
+#plans .plan h3 strong {font: 10px/1 'ProximaNova-Bold', Arial, Helvetica, sans-serif;text-transform:uppercase;display:block;}
+#plans .plan-features {padding:15px 8px;border-bottom:1px solid #aaa;background:#fbfbfb;}
+#plans .plan-features ul {font-size:16px;line-height:24px;list-style:none;list-style-position:outside;margin:0;padding:0;text-align:center;}
+#plans .plan-details {padding:15px 10px;
+	background: #fbfbfb;
+	
+	background: -moz-linear-gradient(top,  #fbfbfb 0%, #ededed 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbfbfb), color-stop(100%,#ededed));
+	background: -webkit-linear-gradient(top,  #fbfbfb 0%,#ededed 100%);
+	background: -o-linear-gradient(top,  #fbfbfb 0%,#ededed 100%);
+	background: -ms-linear-gradient(top,  #fbfbfb 0%,#ededed 100%);
+}
+#plans .btn-mixed {width:145px;margin:0 10px;}
+#plans .plan-details:after {content: " ";display:block;height:0;clear:both;visibility: hidden;}
+#plans .plan-details {zoom:1;}
+#plans .plan h4 {font: 16px/24px 'ProximaNova-Regular', Arial, Helvetica, sans-serif;margin:0;}
+#plans .plan-details ul {font-size:16px;line-height:24px;list-style:none;list-style-position:outside;margin:0 0 10px;padding:0;text-align:center;color:#555;}
+
+
+/* Signup */
+#signup {
+  zoom: 1;
+  display: block;
+  position: relative;
+  min-height: auto;
+}
+#signup:before,
+#signup:after {
+  content: "";
+  display: table;
+}
+#signup:after {
+  clear: both;
+}
+
+
 
 /**
  * Portfolio
