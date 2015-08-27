@@ -19,13 +19,13 @@
 	      </ol>
 	      <div class="carousel-inner" role="listbox">
 	        <div class="item active">
-	          <img class="first-slide" src="<?php echo get_template_directory_uri(); ?>/fix_images/estante_a.jpg" alt="First slide">
+	          <img height="700" width="100%" class="first-slide" src="<?php echo get_template_directory_uri(); ?>/fix_images/estante_a.jpg" alt="First slide">
 	        </div>
 	        <div class="item">
-	          <img class="second-slide" src="<?php echo get_template_directory_uri(); ?>/fix_images/estante_b.jpg" alt="Second slide">
+	          <img height="700" width="100%" class="second-slide" src="<?php echo get_template_directory_uri(); ?>/fix_images/estante_b.jpg" alt="Second slide">
 	        </div>
 	        <div class="item">
-	          <img class="third-slide" src="<?php echo get_template_directory_uri(); ?>/fix_images/estante_c.jpg" alt="Third slide">
+	          <img height="700" width="100%" class="third-slide" src="<?php echo get_template_directory_uri(); ?>/fix_images/estante_c.jpg" alt="Third slide">
 	        </div>
 	      </div>
 	      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">

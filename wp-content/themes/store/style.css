@@ -782,12 +782,12 @@ object {
 /* css para o carrosel */
 
 .carousel {
-    height: 300px;
+    height: 450px;
     margin-bottom: 40px;
 }
 
 .sliders-faixa {
-	height: 350px;
+	height: 450px;
 	margin-bottom: 10px;
 }
 
@@ -877,7 +877,7 @@ object {
 }
 
 .carousel-inner img{
- 	max-height: 300px;
+ 	max-height: 450px;
  	margin: 0 auto;
 }
 
@@ -1290,3 +1290,28 @@ object {
   content: "\e0db";
   font-family: "Icons";
 }
+
+/* Formularios */
+
+.inputClass {
+	width: 100%;
+}
+
+@media(max-width: 990px){
+     #plans .plan-list {
+       width: 690px;
+    }
+}
+
+@media(max-width: 495px){
+     #plans .plan-list {
+       width: 460px;
+    }
+}
+
+@media(max-width: 300px){
+     #plans .plan-list {
+       width: 250px;
+    }
+}
+
